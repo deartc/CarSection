@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +12,8 @@ namespace Vehicle
        
         public string Make { get; set; }
         public string Model { get; set; }
-        public decimal MilesPerGallon { get; set; }
-        public decimal GasTankCapacity { get; set; }
+        public double MilesPerGallon { get; set; }
+        public double GasTankCapacity { get; set; }
 
         public Car ()
         { 
@@ -22,7 +22,7 @@ namespace Vehicle
             MilesPerGallon = 0.00M;
             GasTankCapacity = 0.00M;
 
-            public Car (string a, string b, int c, int d)
+            public Car (string a, string b, double c, double d)
             Make = a;
             Model = b;
             MilesPerGallon = c;
