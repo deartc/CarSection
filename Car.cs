@@ -22,11 +22,11 @@ namespace Vehicle
             MilesPerGallon = 0.00M;
             GasTankCapacity = 0.00M;
 
-            public Car (string a, string b, double c, double d)
-            Make = a;
-            Model = b;
-            MilesPerGallon = c;
-            GasTankCapacity = d;
+            public Car (string make, string model, double mpg, double gtc)
+            Make = make;
+            Model = model;
+            MilesPerGallon = mpg;
+            GasTankCapacity = gtc;
 
 
 
